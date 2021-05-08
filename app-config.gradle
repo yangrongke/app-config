@@ -1,15 +1,4 @@
-ext.commonConfig = [
-
-        //本地库URL
-        MAVEN_URL                  : 'http://172.28.1.147:8081/nexus/content/repositories/thirdparty/',
-        //灰度仓库URL
-        MAVEN_RC_URL               : 'http://172.28.1.147:8081/nexus/content/repositories/thirdparty/',
-
-        // buildTools版本
-        buildToolsVersion: "25.0.2",
-		
-        minSdkVersion15  : 15,
-		
-
-]
+ext {
+        minSdkVersion15  = 15
+}
 
